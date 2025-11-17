@@ -1,0 +1,36 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter / VSCode
+*.ipynb_checkpoints/
+.vscode/
+
+# Cache & tooling
+.cache/
+.mypy_cache/
+.pytest_cache/
+
+# Environment & secrets
+.env
+.env.*
+.envrc
+
+# OS / Misc
+.DS_Store
+Thumbs.db
+
+# Generated requirements (can be recompiled)
+requirements.txt
+
+# Logs
+*.log

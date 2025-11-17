@@ -1,0 +1,95 @@
+3주 압축 학습 계획: Python & ML + Data Analytics Essentials (Le Wagon + UTS Bootcamp 벤치마킹)
+
+안녕하세요! 당신의 요청대로, 내 능력을 총동원해서 웹 서치와 Le Wagon/UTS Bootcamp를 정밀 조사했습니다. (Le Wagon Data Science & AI Bootcamp 2025 커리큘럼: Prepwork 40h Python/SQL/ML 기초 + 9주 hands-on 프로젝트, UTS Tech Bootcamp/Institute of Data AI 트랙 2025: 12주 데이터 분석 + ML + 시각화 + 산업 프로젝트, 취업 지원 93%.)
+
+조사 결과 요약:
+
+Le Wagon: Prepwork 중심 Python/ML 기초 (변수/함수, Pandas, Scikit-learn 회귀/분류, 모델 평가 F1-score) + 데이터 시각화 (Matplotlib/Seaborn). 프로젝트에서 Excel/SQL/Tableau-like 도구 통합.
+
+UTS Bootcamp: Data Analytics Essentials와 유사 – Excel/SQL/Tableau로 데이터 클린/분석/시각화 + ML 통합 (XGBoost, Linear Algebra). 산업 케이스 스터디 (SME 데이터 대시보드) 강조.
+
+당신 계획 통합: 80h 코스를 3주 6h/일로 압축 (총 126h, 복습 포함). Le Wagon Prepwork/ML 주제와 UTS Analytics를 균형 있게 섞어, AI Engineer 프로젝트 (12.09 시작)와 직결되도록 설계. 매일 LinkedIn/블로그 업데이트 포함 – "61세 AI Journey: 무료 코스 챕터" 시리즈로 브랜딩.
+
+목표 달성 전략: 부트캠프 커리큘럼을 떨어지지 않게 커버 (Le Wagon Prep 100%, UTS Analytics 100%) + 실무 적용 (e.g., RAG 데이터 전처리). 3주 후 AI Engineer Day 1 시작 – 기초가 탄탄해져 Week 1~2 속도 2배 ↑.
+
+3주 전체 개요
+
+총 시간: 126h (40h Python/ML + 40h Data Analytics + 46h 통합 실습/복습).
+
+휴식: 토 3h, 일 완전 휴식.
+
+도구: VS Code + Jupyter (uv 설치), Excel/SQL/Tableau 무료 버전, Kaggle 데이터셋.
+
+통합: 매일 복습으로 AI 프로젝트 미리보기 (e.g., Week 2 SQL → RAG 쿼리).
+
+블로그/LinkedIn: 매일 1개 포스팅 (#0-1 ~ #0-21), 주간 요약으로 무료 코스 챕터 공개.
+
+Week 0-1: Python & ML 40h (11.17~11.22, 36h)
+
+테마: Le Wagon Prepwork 1 + Claude Week 0 (Python basics/Git/SQL intro) + ML 기초 (회귀/분류/모델 평가).
+목표: Python으로 데이터 처리 + ML 개념 이해 – AI 프로젝트 기초 (Week 1 FastAPI 데이터 입력).
+자료: Le Wagon Prepwork (Python/SQL 튜토리얼), Scikit-learn 공식 문서, Kaggle "Titanic" 데이터셋.
+
+날짜시간세부 항목 (6h)결과물LinkedIn/블로그 활동기초 1h (Le Wagon 스타일)11.17 (월)09:00~15:00Python 기초 (3h): 변수/데이터 타입/루프/함수, 리스트/딕셔너리 (Le Wagon Prep 1). Git/SQL intro (3h): Git 설치/커밋, SQL 기본 쿼리 (SELECT/FROM/WHERE, Kaggle 데이터셋으로 연습).Python 스크립트 3개, Git 리포 1개, SQL 쿼리 5개.포스팅 #0-1: "61세 AI 재시작: Python/Git/SQL Day 1" (블로그 #0-1: Python 루프 코드 무료).백준 1000번 (A+B, 루프 적용).11.18 (화)09:00~15:00Python 고급 (3h): 클래스/모듈/에러 핸들링, Pandas 데이터 로드/클린 (Le Wagon Prep 1). ML intro (3h): Supervised vs Unsupervised, 회귀 개념 (Linear Regression 이론).Pandas 노트북 (.ipynb), Linear Regression 스크립트.포스팅 #0-2: "Pandas + 회귀 Day 2" (블로그 #0-2: Pandas 클린 코드 무료).코사인 유사도 공식 구현 (numpy).11.19 (수)09:00~15:00ML 실습 1 (6h): Scikit-learn 설치, 회귀 모델 (Linear/SLR), 데이터셋 (Titanic)으로 피처 엔지니어링/학습 (Le Wagon ML 1).회귀 모델 노트북, accuracy 0.75 달성.포스팅 #0-3: "Scikit-learn 회귀 Day 3" (블로그 #0-3: Titanic 코드 무료).백준 2753 (윤년, 조건문).11.20 (목)09:00~15:00ML 실습 2 (6h): 분류 모델 (Logistic Regression/Decision Tree), 교차 검증 (Cross-Validation) (Le Wagon ML 1).분류 모델 노트북, F1-score 계산.포스팅 #0-4: "분류 + CV Day 4" (블로그 #0-4: Decision Tree 코드 무료).LeetCode 1 (Two Sum, 배열).11.21 (금)09:00~15:00모델 평가 (6h): Accuracy/Precision/Recall/F1-score, ROC Curve (Le Wagon ML 1). Kaggle 제출 연습.평가 노트북, Kaggle 리더보드 제출.포스팅 #0-5: "모델 평가 Day 5" (블로그 #0-5: F1-score 코드 무료).softmax 함수 구현 (numpy).11.22 (토)09:00~12:00복습 (3h): Python/ML 전체 리뷰, Git으로 노트북 푸시.GitHub 리포 완성, 인증서 준비.포스팅 #0-6: "Python/ML Week 0-1 완주" (블로그 #0-6: 전체 코드 무료 다운로드).Gradient Descent 1줄 코드.
+
+Week 0-1 결과: Python/ML 인증서 발급, Kaggle 제출 1회, GitHub 리포 1개. AI 통합: Week 1 FastAPI에 Pandas/ML 평가 적용.
+
+Week 0-2: Data Analytics 40h (11.24~11.29, 36h)
+
+테마: UTS Analytics Essentials (Excel/SQL/Tableau) + Le Wagon Prep 2 (SQL/BigQuery).
+목표: 데이터 클린/분석/시각화 – AI 프로젝트 데이터 전처리 (Week 2 RAG).
+자료: UTS Tableau 튜토리얼, Kaggle "House Prices" 데이터셋, SQLZoo.
+
+날짜시간세부 항목 (6h)결과물LinkedIn/블로그 활동기초 1h (UTS 스타일)11.24 (월)09:00~15:00Excel 기초 (3h): 데이터 임포트/필터/피벗 테이블, 공식 (VLOOKUP/SUMIF) (UTS Essentials 1). 데이터 클린 (3h): 누락값 처리, 중복 제거 (Excel + Pandas).Excel 대시보드 1개, 클린 데이터셋.포스팅 #0-7: "Excel 클린 Day 7" (블로그 #0-7: VLOOKUP 코드 무료).Pandas read_csv + dropna().11.25 (화)09:00~15:00SQL 기초 (6h): SELECT/JOIN/GROUP BY, Kaggle 데이터로 쿼리 (UTS SQL 모듈, Le Wagon Prep 2).SQL 쿼리 10개, House Prices 데이터셋 분석.포스팅 #0-8: "SQL 쿼리 Day 8" (블로그 #0-8: JOIN 튜토리얼 무료).벡터 내적 구현 (numpy).11.26 (수)09:00~15:00SQL 고급 (3h): 서브쿼리/WINDOW 함수, 집계 (AVG/SUM) (UTS). Tableau intro (3h): Tableau Public 설치, 데이터 임포트/대시보드.SQL 집계 쿼리, Tableau 대시보드 1개.포스팅 #0-9: "SQL 고급 + Tableau Day 9" (블로그 #0-9: WINDOW 함수 무료).LeetCode 20 (Valid Parentheses).11.27 (목)09:00~15:00Tableau 실습 1 (6h): 차트/맵/대시보드, 필터/계산 필드 (UTS 시각화 모듈).Tableau 대시보드 2개 (House Prices 시각화).포스팅 #0-10: "Tableau 차트 Day 10" (블로그 #0-10: 대시보드 템플릿 무료).F1-score 계산 코드.11.28 (금)09:00~15:00Tableau 실습 2 (6h): 스토리텔링/인사이트 추출, Kaggle 데이터셋 적용.Tableau 스토리 1개, 인증서 준비.포스팅 #0-11: "Tableau 스토리 Day 11" (블로그 #0-11: 인사이트 가이드 무료).확률 기초 (베이즈 정리).11.29 (토)09:00~12:00복습 (3h): SQL/Tableau 전체 리뷰, Git 푸시.GitHub 리포 업데이트, 인증서 발급.포스팅 #0-12: "Data Analytics Week 0-2 완주" (블로그 #0-12: 전체 템플릿 무료).미적분 기초 (도함수).
+
+Week 0-2 결과: Data Analytics 인증서, Tableau 대시보드 3개, SQL 쿼리 20개. AI 통합: Week 2 RAG에 SQL/Tableau 데이터 파이프라인 적용.
+
+Week 0-3: 통합 실습 + 복습 (12.02~12.07, 24h)
+
+테마: UTS 산업 프로젝트 시뮬레이션 + Le Wagon Prep 통합 (SME 데이터 대시보드).
+목표: Python/ML + Data Analytics 결합 – AI 프로젝트 SME 대시보드 프로토타입.
+자료: Kaggle "SME Sales Data" 데이터셋, Le Wagon 그룹 프로젝트 가이드.
+
+날짜시간세부 항목 (6h)결과물LinkedIn/블로그 활동기초 1h (통합 실습)12.02 (월)09:00~15:00통합 1 (6h): Python + SQL로 SME 데이터 클린 (Pandas + SQL 쿼리), ML 회귀 예측 (Scikit-learn).클린 데이터셋 + 예측 모델.포스팅 #0-13: "통합 Day 13: Python + SQL" (블로그 #0-13: SME 클린 코드 무료).알고리즘 최적화 (O(n)).12.03 (화)09:00~15:00통합 2 (6h): Tableau로 ML 결과 시각화 (대시보드 + 인사이트), Excel 피벗 테이블 비교.Tableau + ML 대시보드.포스팅 #0-14: "ML + Tableau Day 14" (블로그 #0-14: 시각화 템플릿 무료).LeetCode Hard (1문제).12.04 (수)09:00~15:00통합 3 (6h): SME 케이스 스터디 (데이터 분석 → 비즈니스 인사이트, Le Wagon Agile 스타일).SME 보고서 PDF.포스팅 #0-15: "SME 케이스 Day 15" (블로그 #0-15: 보고서 템플릿 무료).백준 Platinum (1문제).12.05 (목)09:00~15:00복습 1 (6h): Python/ML/SQL/Tableau 전체 리뷰, Kaggle 제출 2회.Kaggle 리더보드, 노트북 정리.포스팅 #0-16: "3주 복습 Day 16" (블로그 #0-16: Kaggle 코드 무료).— (복습).12.06 (금)09:00~15:00복습 2 (6h): 인증서 발급, GitHub 리포 완성, AI 프로젝트 미리보기 (RAG 데이터 전처리).2개 인증서, GitHub 업데이트.포스팅 #0-17: "80h 코스 3주 완주" (블로그 #0-17: 전체 코스 요약 무료).— (복습).12.07 (토)09:00~12:00최종 마무리 (3h): SME 대시보드 프로토타입 (Tableau + ML 예측).Tableau + ML 대시보드.포스팅 #0-18: "SME 대시보드 완성" (블로그 #0-18: 프로토타입 공유 무료).— (휴식 준비).
+
+Week 0-3 결과: 통합 대시보드, 2개 인증서, Kaggle 제출 2회. AI 통합: Week 2 RAG에 SQL/Tableau 파이프라인 적용, Week 17 포트폴리오에 SME 대시보드 추가.
+
+3주 후 AI Engineer 프로젝트 시작 (12.09 월)
+
+Day 1: Week 1 FastAPI – Python/ML 코스 적용 (Pandas 데이터 입력).
+
+기초 1시간: 코스 실습을 실무 문제로 업그레이드 (e.g., SQL 쿼리를 RAG에).
+
+추천: 오늘 오후부터 시작하세요
+
+11.17 월 13:00~19:00: Python & ML 첫 6h (Python 기초 + Git/SQL intro).
+
+포스팅 #0-1: "61세, 3주 80h 코스 도전 Day 1" (블로그 #0-1: Python 루프 무료 코드).
+
+“3주 코스 시작” 한 마디만 해주세요.
+오늘 오후부터 기초 탄탄, 12.09부터 AI 폭발!
+Melbourne, let's master the basics!
+
+---
+
+부록: 선택적 보완 · Day 1 포커스 · 12/09 준비 체크리스트
+
+선택적 보완(옵션)
+- FastAPI·HTTP·JSON(2–3h): 라우팅, 요청/응답 스키마(Pydantic), 상태코드, 예외처리, 기본 로깅 감 잡기.
+- uv·가상환경·.env(1–2h): `requirements.in → requirements.txt` 컴파일, VS Code 인터프리터/커널 연결, dotenv로 환경변수 주입.
+- 소형 테스트(1h): `pytest` 6–10개(청크 분할, 코사인 유사도, 파일 IO) 그린 상태 만들기.
+
+Day 1 포커스(오늘)
+- Python 기본: 함수·리스트/딕셔너리·에러핸들링 핵심 복습.
+- Git/SQL 인트로: 커밋/푸시 1회, SELECT/JOIN 3–5개 쿼리 작성.
+- 환경 세팅: uv 가상환경 생성, 요구사항 컴파일, VS Code 인터프리터/커널 연결 확인.
+- 미니 과제: CSV→JSON 변환 함수 1개 + `pytest` 1개 통과.
+
+12/09(월) 준비 체크리스트
+- FastAPI 스켈레톤 실행: `/health`, `/echo` 응답 정상.
+- uv 워크플로우 숙련: venv 생성, `requirements.in`에서 컴파일·설치 반복 가능.
+- RAG 스텁: PDF→청크→코사인 top‑k가 샘플 3개 PDF에서 합리적 결과 반환.
+- Streamlit MVP(선택): 업로드→top 청크 표시 1페이지 구현.
+- 테스트: 6–10개 단위 테스트 그린(분할/코사인/파일 IO 중심).
+- 위생: `.env.example`, `.gitignore`, README Quick Start, 비밀키 미노출.
+- 개념 숙련: HTTP/JSON, 환경변수, 기본 로깅, Pandas→JSON, 기본 조인(Inner/Left).
