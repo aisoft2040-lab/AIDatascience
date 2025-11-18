@@ -20,13 +20,13 @@
 
 ## 3. 다음 세션 재시작 체크리스트
 1. 가상환경 활성화
-   ```cmd
-   .\.venv\Scripts\activate
-   ```
+    ```bash
+    source .venv/bin/activate
+    ```
 2. 패키지 재설치(필요시)
-   ```cmd
-   uv pip install -r requirements.txt
-   ```
+    ```bash
+    pip install -r requirements.txt
+    ```
 3. 기존 테스트 실행
    ```cmd
    pytest -q
@@ -116,12 +116,12 @@ git push origin main
 - 평가 리포트 초안 템플릿 만들기.
 
 ## 9. 빠른 실행 명령
-```cmd
-\.venv\Scripts\activate
+```bash
+source .venv/bin/activate
 pytest -q
 python -m uvicorn src.main:app --reload --port 8000
 curl http://localhost:8000/health
-curl -X POST http://localhost:8000/echo -H "Content-Type: application/json" -d "{\"message\":\"hello\"}"
+curl -X POST http://localhost:8000/echo -H "Content-Type: application/json" -d '{"message":"hello"}'
 ```
 
 ## 10. 결정 대기 질문
