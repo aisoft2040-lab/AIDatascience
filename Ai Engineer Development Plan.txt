@@ -186,7 +186,7 @@ AI Engineer Journey
 
 - [ ] Linux Mint → **sudo 권한 확인 + apt update**  
 - [ ] GitHub 계정 로그인  
-- [ ] **여기서 “출석”** → 제가 `setup_windows.ps1` 드림  
+- [ ] **여기서 “출석”** → 제가 `setup_linuxmint.sh` 드림  
 - [ ] **8주차 Mac 구매 예약** (M2 Air 중고 AUD $1,200 추천)
 
 ---
