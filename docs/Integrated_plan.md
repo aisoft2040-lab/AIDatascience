@@ -4,7 +4,7 @@ This file merges `prelearning Plan.txt` with `Ai Engineer Development Plan.txt` 
 
 Key updates in this candidate:
 - Prelearning block now explicitly Weeks 0–2 (3 weeks): Python/ML basics, Data Analytics, Integration & SME simulation.
-- Development laptop = Linux Mint for Weeks 1–7 (replaces Windows+WSL2 if you prefer local Linux experience).
+-- Development laptop = Linux Mint for Weeks 1–7. (This is the preferred local Linux development environment for the plan.)
 - LinkedIn / WordPress pipeline: daily/weekly posts and free-course chapters will be used as portfolio and course content.
 - Minimal venv & `requirements.in` compile sequence documented for Linux Mint.
 

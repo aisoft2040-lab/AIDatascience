@@ -29,7 +29,7 @@ Naming: Prefix with zero‑padded week number; use concise underscore separators
 - Keep dependency specs: Use `requirements.in` + compile with `uv pip compile` → `requirements.txt` (per Week 1 principle). Do NOT pin Python to patch unless required.
 
 ## 3. Environment & Tooling — quick commands
-- Weeks 1–7: Target Linux Mint (Ubuntu/Debian based). Provide `apt`/`bash` commands for Linux Mint environment and optional PowerShell/WSL steps for Windows users. Prefer `bash` for examples by default.
+- Weeks 1–7: Target Linux Mint (Ubuntu/Debian based). Provide `apt`/`bash` commands for Linux Mint environment. Prefer `bash` for examples by default.
 - Weeks 8–20: Assume macOS (M2/M3). Prefer cross‑platform commands (`bash` over PowerShell) unless Windows‑specific.
 - Local constraints: 16GB RAM, no GPU → prefer quantized models (Q4 or below) or external inference APIs (Groq, Fireworks, Together). Avoid heavyweight local fine‑tunes >1 hour.
   Example developer commands used in this repo:

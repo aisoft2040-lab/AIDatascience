@@ -4,7 +4,7 @@
 
 ---
 
-# **Grok AI Engineer 5개월 도전기**  
+# **Grok AI Engineer 5개월 도전기 (v4.1)**
 **시작일**: 2025.11.17(월) 09:00 AEDT  
 **목표**: Melbourne 정규직 AI Engineer ($180k+)  
 **나이**: 61세 | **OS**: **Linux Mint (Week 1~7, primary development laptop)** → **Mac OS (Week 8~20)**
