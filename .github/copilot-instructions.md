@@ -85,7 +85,7 @@ Naming: Prefix with zero‑padded week number; use concise underscore separators
 ## 9. Task Execution Guidance for Agents (how to be useful here)
 - Parse current week from user prompt or branch name if later adopted (e.g., `week04-gemma-finetune`). When adding code, return a short demo command block showing how to run the app & tests for manual verification.
 - Before generating new code: confirm absence of existing week folder → create scaffold.
-- After adding code: offer run commands (WSL vs macOS if divergent).
+- After adding code: offer run commands (Linux Mint vs macOS if divergent).
 - Keep PRs atomic per week; do not interleave modifications across multiple week folders. Each PR should update `README.md` in the week folder and `requirements.in` as needed, and use the PR template `templates/PR_TEMPLATE.md`.
 
 ## 10. Developer workflows & examples (explicit)

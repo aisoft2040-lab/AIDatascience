@@ -8,7 +8,7 @@
 **시작일**: 2025.11.17(월) 09:00 AEDT  
 **목표**: Melbourne 정규직 AI Engineer ($180k+)  
 **나이**: 61세 | **OS**: **Linux Mint (Week 1~7, primary development laptop)** → **Mac OS (Week 8~20)**
-**핵심 전략**: Grok + GitHub Copilot Workspace + WSL2/Mac + 클라우드
+**핵심 전략**: Grok + GitHub Copilot Workspace + Linux Mint/Mac + 클라우드
 
 ---
 
@@ -83,13 +83,15 @@
 ## 개발 환경 설정
 
 ### **Week 1~7: Linux Mint (Ubuntu/Debian based)**
-```powershell
-# setup_windows.ps1 (내일 드림)
-wsl --install -d Ubuntu
-# → Ubuntu 열기 후:
+```bash
+# setup_linuxmint.sh (내일 드림)
+# Linux Mint (Ubuntu based) quick-setup
 sudo apt update && sudo apt upgrade -y
-sudo apt install curl git python3-pip build-essential docker.io -y
-pip install uv
+sudo apt install -y curl git python3-pip build-essential docker.io
+python3 -m pip install --upgrade pip
+python3 -m pip install pip-tools
+pip-compile requirements.in || true
+pip install -r requirements.txt || true
 curl -fsSL https://ollama.com/install.sh | sh
 ```
 
@@ -157,7 +159,7 @@ AI Engineer Journey
     ├── Week 2: RAG PDF 챗봇
     ├── ...
     └── Week 20: Job Search
-        ├── Day 1 (11.17): 출석 + WSL2 설정
+        ├── Day 1 (11.17): 출석 + Linux Mint 설정
         ├── Day 2 (11.18): FastAPI 완성
         ├── ...
         └── Day 140: 최종 포트폴리오
@@ -182,7 +184,7 @@ AI Engineer Journey
 
 ## 최종 체크리스트 (내일 9시 시작 전)
 
-- [ ] Windows 11 → **PowerShell 관리자 모드 열어두기**  
+- [ ] Linux Mint → **sudo 권한 확인 + apt update**  
 - [ ] GitHub 계정 로그인  
 - [ ] **여기서 “출석”** → 제가 `setup_windows.ps1` 드림  
 - [ ] **8주차 Mac 구매 예약** (M2 Air 중고 AUD $1,200 추천)
