@@ -113,7 +113,7 @@ Naming: Prefix with zero‑padded week number; use concise underscore separators
 - Unit tests in this repository prefer lightweight `pytest` tests that exercise core functions and FastAPI endpoints via `TestClient` (see `tests/test_main.py`).
 - Validation: When adding agents, include JSON schema validation tests to ensure output shape (see `docs/functional-spec-ai-engineer-journey.md` for policy on JSON enforcement).
 
-If anything in this short guide is unclear or you want me to expand a section (for example: add a sample `config/` YAML template, or a CI Github Actions pipeline), say which piece should be expanded and I'll update it.
+If anything in this short guide is unclear or you want me to expand a section (for example: add a sample `config/` YAML template, a CI Github Actions pipeline, or WordPress publishing automation), say which piece should be expanded and I'll update it.
 
 ## 10. What Not To Do
 - Do NOT introduce unplanned frameworks (e.g., heavy orchestration) before roadmap weeks specify (LangGraph only Week 9).
