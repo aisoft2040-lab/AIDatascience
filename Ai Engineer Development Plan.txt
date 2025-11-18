@@ -4,11 +4,11 @@
 
 ---
 
-# **Grok AI Engineer 5개월 도전기**  
+# **Grok AI Engineer 5개월 도전기 (v4.1)**
 **시작일**: 2025.11.17(월) 09:00 AEDT  
 **목표**: Melbourne 정규직 AI Engineer ($180k+)  
-**나이**: 61세 | **OS**: **Windows 11 + WSL2 (Week 1~7)** → **Mac OS (Week 8~20)**  
-**핵심 전략**: Grok + GitHub Copilot Workspace + WSL2/Mac + 클라우드
+**나이**: 61세 | **OS**: **Linux Mint (Week 1~7, primary development laptop)** → **Mac OS (Week 8~20)**
+**핵심 전략**: Grok + GitHub Copilot Workspace + Linux Mint/Mac + 클라우드
 
 ---
 
@@ -30,7 +30,7 @@
 | 원칙 | 내용 |
 |------|------|
 | **실무 100%** | “모델 만들기” → “고객이 돈 내는 AI 제품” |
-| **OS 전환** | Week 1~7: Windows 11 + WSL2 → Week 8: Mac OS |
+| **OS 전환** | Week 1~7: Linux Mint (Ubuntu/Debian based) → Week 8: Mac OS |
 | **16GB RAM** | 8B Q4까지 로컬 쾌적, 13B+는 클라우드 |
 | **GPU 없음** | CPU 모드 + Groq/Fireworks API |
 | **Grok + Copilot** | Grok(멘토) + Copilot Workspace(코더) |
@@ -43,14 +43,14 @@
 
 | 주차 | 미션 | 세부 항목 | 실행 환경 | 비고 |
 |------|------|----------|-----------|------|
-| **Week 1** | **첫 AI 앱 배포** | 1. FastAPI + Ollama Gemma-3-1B<br>2. Groq fallback 로직<br>3. Docker 빌드 & 테스트<br>4. Pytest 기본 단위테스트 (입력 필터 / 함수 안정성)<br>5. .env 보안 설정 + secret 스캔 (누출 방지)<br>6. 기본 입력 검증(길이/유효 문자) & 에러 로깅<br>7. Railway 1클릭 배포<br>8. LinkedIn #1~6 | **Windows 11 + WSL2** | **Day 1~6** |
-| **Week 2** | **RAG PDF 챗봇** | 1. PDF → 텍스트 추출 (PyPDF2)<br>2. Qdrant 벡터 DB 생성<br>3. 코사인 유사도 검색<br>4. Streamlit UI 완성<br>5. 평가 모듈(Precision/Recall/F1, Retrieval@k) + 메트릭 로깅(시간/토큰/히트율)<br>6. LinkedIn #7~12 | **Windows 11 + WSL2** | **Day 7~12** |
-| **Week 3** | **CrewAI 에이전트** | 1. 3개 에이전트 (검색/요약/답변)<br>2. JSON 출력 강제<br>3. 고객 문의 자동 처리<br>4. GitHub Actions CI/CD (테스트/린트/빌드) 파이프라인<br>5. Prompt 평가(JSON 테스트 케이스 / 스키마 유효성 / Hallucination 샘플링)<br>6. Loom 데모 영상 3분<br>7. LinkedIn #13~18 | **Windows 11 + WSL2** | **Day 13~18** |
-| **Week 4** | **Gemma-1B 파인튜닝** | 1. SME 데이터 100개 준비<br>2. LoRA + Unsloth 설치<br>3. **로컬 16GB에서 1시간**<br>4. MLflow 실험 추적(하이퍼파라미터/메트릭/모델 버전)<br>5. `my-sme-bot` 생성<br>6. LinkedIn #19~24 | **Windows 11 + WSL2** | **Day 19~24** |
-| **Week 5** | **SME 프로젝트 1** | 1. RAG + Streamlit (고객 문의)<br>2. PDF 10개 처리<br>3. Railway 배포<br>4. Loom 데모<br>5. LinkedIn #25~30 | **Windows 11 + WSL2** | **Day 25~30** |
-| **Week 5.5** | **Classical ML & EDA 스프린트** | 1. 데이터 프로파일링 & EDA 리포트<br>2. LogReg vs XGBoost 성능/시간 비교<br>3. 모델 해석(특성 중요도/Confusion Matrix)<br>4. 비교 표 및 인사이트 문서화 | **Windows 11 + WSL2** | **(중간 스프린트)** |
-| **Week 6** | **SME 프로젝트 2** | 1. CrewAI + JSON (보고서 자동화)<br>2. 5단계 워크플로우<br>3. 오류 복구 로직<br>4. Loom 데모<br>5. LinkedIn #31~36 | **Windows 11 + WSL2** | **Day 31~36** |
-| **Week 7** | **SME 프로젝트 3** | 1. 멀티모달 (PDF+이미지)<br>2. Llama-3.1-8B-vision<br>3. Streamlit UI<br>4. Railway 배포<br>5. LinkedIn #37~42 | **Windows 11 + WSL2** | **Day 37~42** |
+| **Week 1** | **첫 AI 앱 배포** | 1. FastAPI + Ollama Gemma-3-1B<br>2. Groq fallback 로직<br>3. Docker 빌드 & 테스트<br>4. Pytest 기본 단위테스트 (입력 필터 / 함수 안정성)<br>5. .env 보안 설정 + secret 스캔 (누출 방지)<br>6. 기본 입력 검증(길이/유효 문자) & 에러 로깅<br>7. Railway 1클릭 배포<br>8. LinkedIn #1~6 | **Linux Mint (Week 1~7)** | **Day 1~6** |
+| **Week 2** | **RAG PDF 챗봇** | 1. PDF → 텍스트 추출 (PyPDF2)<br>2. Qdrant 벡터 DB 생성<br>3. 코사인 유사도 검색<br>4. Streamlit UI 완성<br>5. 평가 모듈(Precision/Recall/F1, Retrieval@k) + 메트릭 로깅(시간/토큰/히트율)<br>6. LinkedIn #7~12 | **Linux Mint (Week 1~7)** | **Day 7~12** |
+| **Week 3** | **CrewAI 에이전트** | 1. 3개 에이전트 (검색/요약/답변)<br>2. JSON 출력 강제<br>3. 고객 문의 자동 처리<br>4. GitHub Actions CI/CD (테스트/린트/빌드) 파이프라인<br>5. Prompt 평가(JSON 테스트 케이스 / 스키마 유효성 / Hallucination 샘플링)<br>6. Loom 데모 영상 3분<br>7. LinkedIn #13~18 | **Linux Mint (Week 1~7)** | **Day 13~18** |
+| **Week 4** | **Gemma-1B 파인튜닝** | 1. SME 데이터 100개 준비<br>2. LoRA + Unsloth 설치<br>3. **로컬 16GB에서 1시간**<br>4. MLflow 실험 추적(하이퍼파라미터/메트릭/모델 버전)<br>5. `my-sme-bot` 생성<br>6. LinkedIn #19~24 | **Linux Mint (Week 1~7)** | **Day 19~24** |
+| **Week 5** | **SME 프로젝트 1** | 1. RAG + Streamlit (고객 문의)<br>2. PDF 10개 처리<br>3. Railway 배포<br>4. Loom 데모<br>5. LinkedIn #25~30 | **Linux Mint (Week 1~7)** | **Day 25~30** |
+| **Week 5.5** | **Classical ML & EDA 스프린트** | 1. 데이터 프로파일링 & EDA 리포트<br>2. LogReg vs XGBoost 성능/시간 비교<br>3. 모델 해석(특성 중요도/Confusion Matrix)<br>4. 비교 표 및 인사이트 문서화 | **Linux Mint (Week 1~7)** | **(중간 스프린트)** |
+| **Week 6** | **SME 프로젝트 2** | 1. CrewAI + JSON (보고서 자동화)<br>2. 5단계 워크플로우<br>3. 오류 복구 로직<br>4. Loom 데모<br>5. LinkedIn #31~36 | **Linux Mint (Week 1~7)** | **Day 31~36** |
+| **Week 7** | **SME 프로젝트 3** | 1. 멀티모달 (PDF+이미지)<br>2. Llama-3.1-8B-vision<br>3. Streamlit UI<br>4. Railway 배포<br>5. LinkedIn #37~42 | **Linux Mint (Week 1~7)** | **Day 37~42** |
 | **Week 8** | **Mac OS 전환 + 멀티모달 RAG** | 1. Mac 도착 → 환경 이전<br>2. Llama-3.1-8B-vision<br>3. 이미지+텍스트 RAG<br>4. Loom 데모<br>5. LinkedIn #43~48 | **Mac OS (M2/M3)** | **Day 43~48** |
 | **Week 9** | **LangGraph 워크플로우** | 1. 상태 기반 에이전트<br>2. 5단계 워크플로우<br>3. 오류 복구 로직<br>4. 사전 모니터링 계층(지연/에러율/검색 Hit Rate) 도입<br>5. Responsible AI 체크리스트(PII 제거/Prompt Injection 방지/감사 로그)<br>6. Loom 데모<br>7. LinkedIn #49~54 | **Mac OS** | **Day 49~54** |
 | **Week 10** | **Llama-8B 파인튜닝** | 1. SME 데이터 500개<br>2. QLoRA + Groq Cloud<br>3. **1시간 $5**<br>4. `sme-bot-v2` 생성<br>5. LinkedIn #55~60 | **클라우드 $5** | **Day 55~60** |
@@ -82,14 +82,16 @@
 
 ## 개발 환경 설정
 
-### **Week 1~7: Windows 11 + WSL2**
-```powershell
-# setup_windows.ps1 (내일 드림)
-wsl --install -d Ubuntu
-# → Ubuntu 열기 후:
+### **Week 1~7: Linux Mint (Ubuntu/Debian based)**
+```bash
+# setup_linuxmint.sh (내일 드림)
+# Linux Mint (Ubuntu based) quick-setup
 sudo apt update && sudo apt upgrade -y
-sudo apt install curl git python3-pip build-essential docker.io -y
-pip install uv
+sudo apt install -y curl git python3-pip build-essential docker.io
+python3 -m pip install --upgrade pip
+python3 -m pip install pip-tools
+pip-compile requirements.in || true
+pip install -r requirements.txt || true
 curl -fsSL https://ollama.com/install.sh | sh
 ```
 
@@ -157,7 +159,7 @@ AI Engineer Journey
     ├── Week 2: RAG PDF 챗봇
     ├── ...
     └── Week 20: Job Search
-        ├── Day 1 (11.17): 출석 + WSL2 설정
+        ├── Day 1 (11.17): 출석 + Linux Mint 설정
         ├── Day 2 (11.18): FastAPI 완성
         ├── ...
         └── Day 140: 최종 포트폴리오
@@ -169,7 +171,11 @@ AI Engineer Journey
 
 | 날짜 | 제목 |
 |------|------|
-| 11.17 | **#1: 61세 AI 재시작 – Windows 11 + WSL2로 Day 1** |
+| 11.17 | **#1: 61세 AI 재시작 – Linux Mint + local dev Day 1** |
+| 11.17 | **#1: 61세 AI 재시작 – Linux Mint + local dev Day 1** |
+
+## WordPress & LinkedIn pipeline
+- Daily LinkedIn micro-posts during prelearning will be compiled weekly into free course chapters on WordPress (category: AI Engineer Journey). Examples: `docs/linkedin_posts/` holds drafts; `docs/wordpress_course.md` explains how to compile weekly chapters and what to include (code, notebooks, Loom demos). Ensure each chapter has GitHub links and downloadable notebooks.
 | 11.18 | **#2: FastAPI + Ollama 완성** |
 | ... | ... |
 | 04.05 | **#140: Melbourne 정규직 오퍼 3개 수령** |
@@ -178,13 +184,13 @@ AI Engineer Journey
 
 ## 최종 체크리스트 (내일 9시 시작 전)
 
-- [ ] Windows 11 → **PowerShell 관리자 모드 열어두기**  
+- [ ] Linux Mint → **sudo 권한 확인 + apt update**  
 - [ ] GitHub 계정 로그인  
 - [ ] **여기서 “출석”** → 제가 `setup_windows.ps1` 드림  
 - [ ] **8주차 Mac 구매 예약** (M2 Air 중고 AUD $1,200 추천)
 
 ---
 
-> **“나이 61, Windows 11 + WSL2 → Mac OS, RAM 16GB, GPU 없음”**  
+> **“나이 61, Linux Mint → Mac OS, RAM 16GB, GPU 없음”**  
 > **→ 그래도 Melbourne $180k 정규직 가능**  
 > **왜? 실무는 “클라우드 + GitHub + LinkedIn” 이니까**

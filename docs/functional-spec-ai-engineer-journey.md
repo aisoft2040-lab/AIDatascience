@@ -15,7 +15,7 @@ Last updated: 2025-11-17
 - Primary: Project owner (you). Secondary: Aspiring AI Engineers (blog audience). Tertiary: Reviewers (interviewers/hiring managers).
 
 ## 4) Constraints
-- OS & Hardware: Weeks 1–7 Windows 11 + WSL2; Weeks 8–20 macOS(M2/M3); 16GB RAM; no GPU.
+- OS & Hardware: Weeks 1–7 Linux Mint (Ubuntu/Debian); Weeks 8–20 macOS(M2/M3); 16GB RAM; no GPU.
 - Budget: Prefer local/Ollama Q4 or API fallback; fine-tuning via low-cost cloud sessions ($30 total target across plan).
 - Time: 6 hours/day, Sat 3h, Sun rest; LinkedIn cadence adjusted later if needed.
 
